@@ -447,6 +447,18 @@ body {
   line-height: 0.7cm;
 }
 
+@media (max-width: 400px) {
+  .condition ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .condition ul li {
+    margin-bottom: 30px;
+  }
+}
+
 /* condition section */
 
 /* review section */
@@ -546,6 +558,18 @@ body {
 .links ul li:last-child a {
   background: var(--four-color);
   color: white;
+}
+
+@media (max-width: 400px) {
+  .links ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links ul li {
+    margin-bottom: 30px;
+  }
 }
 
 /* links */
